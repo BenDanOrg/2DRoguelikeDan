@@ -1,14 +1,24 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-
+Project("{ACB63817-CCAC-9676-1457-B35DF63003A2}") = "2D Rogue Like Game", "Assembly-CSharp.csproj", "{8291E70E-47A0-42FA-1465-EB5E06E192AD}"
+EndProject
+Project("{ACB63817-CCAC-9676-1457-B35DF63003A2}") = "2D Rogue Like Game", "Assembly-CSharp-Editor.csproj", "{375C862B-1E95-485B-DC53-1D505FA808D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{8291E70E-47A0-42FA-1465-EB5E06E192AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8291E70E-47A0-42FA-1465-EB5E06E192AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8291E70E-47A0-42FA-1465-EB5E06E192AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8291E70E-47A0-42FA-1465-EB5E06E192AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{375C862B-1E95-485B-DC53-1D505FA808D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{375C862B-1E95-485B-DC53-1D505FA808D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{375C862B-1E95-485B-DC53-1D505FA808D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{375C862B-1E95-485B-DC53-1D505FA808D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
