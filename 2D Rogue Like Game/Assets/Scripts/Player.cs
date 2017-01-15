@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class Player : MovingObject {
 
@@ -9,6 +10,7 @@ public class Player : MovingObject {
 	public int pointsPerfood = 10;
 	public int pointsPerSoda = 20;
 	public float restartLevelDelay = 1f;
+	public Text foodText;
 
 	private Animator animator;
 	private int food;
@@ -17,6 +19,8 @@ public class Player : MovingObject {
 	protected override void Start () {
 		animator = GetComponent<Animator> ();
 		food = GameManager.instance.playerFoodPoints;
+		foodText.text = string.Format ("Food: {0}", food);
+
 		base.Start ();
 	}
 
@@ -26,6 +30,7 @@ public class Player : MovingObject {
 
 	protected override void AttemptMove<T> (int xDir, int yDir){
 		food--;
+		foodText.text = string.Format ("Food: {0}", food);
 		base.AttemptMove<T> (xDir, yDir);
 		RaycastHit2D hit;
 
@@ -67,9 +72,12 @@ public class Player : MovingObject {
 			enabled = false;
 		} else if (other.tag == "Food") {
 			food += pointsPerfood;
+			foodText.text = string.Format ("+{0} Food: {1}", pointsPerfood, food);
+
 			other.gameObject.SetActive (false);
 		} else if (other.tag == "Soda") {
 			food += pointsPerSoda;
+			foodText.text = string.Format ("+{0} Food: {1}", pointsPerSoda, food);
 			other.gameObject.SetActive (false);
 		}
 	}
@@ -82,12 +90,16 @@ public class Player : MovingObject {
 
 	private void Restart(){
 		//Application.LoadLevel (Application.loadedLevel)
-		SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+		SceneManager.LoadScene (0);
+
+		//SceneManager.LoadScene(SceneManager.GetActiveScene().name);
 	}
 
 	public void LoseFood(int loss){
 		animator.SetTrigger ("playerHit");
 		food -= loss;
+		foodText.text = string.Format ("-{0} Food: {1}", loss, food);
+
 		CheckIfGameOver ();
 	}
 }

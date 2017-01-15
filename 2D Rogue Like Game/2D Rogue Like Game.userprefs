@@ -2,16 +2,55 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
     <Files>
+      <File FileName="Assets\Scripts\GameManager.cs" Line="74" Column="1" />
+      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Enemy.cs" Line="1" Column="1" />
+      <File FileName="Assets\Completed\Scripts\GameManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BoardManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameManager.cs" Line="8" Column="24" />
-      <File FileName="Assets\Scripts\Player.cs" Line="43" Column="33" />
-      <File FileName="Assets\Scripts\Enemy.cs" Line="16" Column="49" />
-      <File FileName="Assets\Scripts\MovingObject.cs" Line="7" Column="5" />
-      <File FileName="Assets\Completed\Scripts\GameManager.cs" Line="67" Column="8" />
+      <File FileName="Assets\Scripts\MovingObject.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="61" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="38" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="62" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="74" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="49" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="56" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="24" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="39" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="40" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="42" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="41" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="43" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="44" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\GameManager.cs" line="45" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="28" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="20" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="86" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="93" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="97" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="43" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="31" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="21" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="71" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="78" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="79" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="80" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="82" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="81" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="84" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\BoardManager.cs" line="85" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Player.cs" line="23" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\MovingObject.cs" line="17" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\MovingObject.cs" line="16" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\MovingObject.cs" line="18" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="17" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="16" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="15" column="1" />
+      <Breakpoint file="D:\Git Repositories\Unity Projects\2DRoguelikeDan\2D Rogue Like Game\Assets\Scripts\Enemy.cs" line="14" column="46" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>
